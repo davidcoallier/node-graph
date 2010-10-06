@@ -1,0 +1,23 @@
+{
+	"name": "node-graph",
+	"author": "David Coallier",
+	"email": "david.coallier@gmail.com",
+	"dependencies": [],
+	"contributors": [],
+	"keywords": [
+            "mathematics",
+            "computer science",
+            "graph theory",
+            "graph",
+	],	
+	"mappings":{},
+	"overlay": {},
+	"githubName": "node-graph",
+	"engines": {"node":">=0.1.94"},
+	"type": "zip",
+	"version": "0.1",
+	"location": "http://github.com/davidcoallier/node-graph",
+	"license":"BSD"
+}
+
+
