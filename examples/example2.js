@@ -1,7 +1,8 @@
 var sys    = require('sys');
-var edge   = require('./lib/edge');
-var graph  = require('./lib/graph');
-var vertex = require('./lib/vertex');
+var edge   = require('../lib/edge');
+var graph  = require('../lib/graph');
+var vertex = require('../lib/vertex');
+var dfs    = require('../lib/searches/depthfirstsearch');
 
 var Graph       = new graph.Graph();
 var VertexOne   = new vertex.Vertex('nameOne',   {});
@@ -15,8 +16,6 @@ Graph.addVertex(VertexThree);
 Graph.addEdge(new edge.Edge('nameOne', 'nameTwo',   {}));
 Graph.addEdge(new edge.Edge('nameOne', 'nameThree', {}));
 
-var neighbours = Graph.neighbours('nameThree');
-
-//sys.puts(sys.inspect(Graph.edges()));
-//sys.puts(sys.inspect(neighbours));
-//sys.puts(sys.inspect(Graph));
+var vertices = Graph.getVertices();
+var dfs = new dfs.DepthFirstSearch(vertices);
+sys.puts(sys.inspect(dfs));
