@@ -3,7 +3,7 @@ node.js Graph Theory module
 
 > Maths is fun and so is node.js so why not use them together!
 
-introduction
+Introduction
 ------------
 
 The goal of this "node-graph" module is to provide a framework for working with graphs
@@ -15,7 +15,7 @@ After building the graphs, it will allow developers to traverse, sort and play w
 
 Currently in EXTREMELY early stages, feel free to contribute!
 
-synopsis
+Synopsis
 --------
 
 Creating a basic Graph object:
@@ -42,7 +42,7 @@ Once you are done, you can now create an edge to link those two vertices togethe
 Now the next step is to build more stuff on top of that :-)
 
 
-license
+License
 -------
 
 Released under the New BSD License.
@@ -50,7 +50,7 @@ Released under the New BSD License.
 Copyright (c) 2010 David Coallier
 
 
-disclaimer
+Disclaimer
 ----------
 
 Very likely to be broken. Feel free to contribute, there's still a lot to do, this is merely teh beginning of the whole graph engine.
