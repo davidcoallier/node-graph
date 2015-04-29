@@ -19,26 +19,26 @@ synopsis
 --------
 
 Creating a basic Graph object:
-
+```javascript
     var sys   = require('sys');
     var graph = require('./lib/graph');
 
     var Graph = new graph.Graph();
-    
+```  
 Now that you have your Graph object, you should add vertices. In order to do that, do:
-    
+```javascript    
     var vertex = require('./lib/vertex');
     var vertexOne = new vertex.Vertex('label1', {});
     Graph.addVertex(vertexOne);
-    
+```    
 To make that graph more interesting, you'll need to add a second vertex. This time, you can do it inline like such:
-
+```javascript
     Graph.addVertex(new vertex.Vertex('label2', {}));
-    
+```    
 Once you are done, you can now create an edge to link those two vertices together:
-
+```javascript
     Graph.addEdge(new Edge('label1', 'label2', {}));
-    
+```    
 Now the next step is to build more stuff on top of that :-)
 
 
